@@ -1,8 +1,17 @@
 import React from "react";
-import logoImg from "../../assets/logo.png"
+import logoImg from "../../assets/logo.png";
 import { FaGithub } from "react-icons/fa6";
+import { Link } from "react-router";
 
 const Navbar = () => {
+  const links = (
+    <>
+      <Link to='/'> <li className="m-3">Home</li> </Link>
+      <Link to='apps'> <li className="m-3">Apps</li> </Link>
+      <Link to='/installation'> <li className="m-3">Installation</li> </Link>
+    </>
+  );
+
   return (
     <div className="navbar bg-base-100 shadow-sm md:px-10">
       <div className="navbar-start">
@@ -28,37 +37,27 @@ const Navbar = () => {
             tabIndex={0}
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
           >
-            <li>
-              <a>Home</a>
-            </li>
-            <li>
-              <a>Apps</a>
-            </li>
-            
-            <li>
-              <a>Installation</a>
-            </li>
+            {links}
           </ul>
         </div>
-        <a className="badge border-0 text-xl"><img src={logoImg} alt="" className="w-10"/>HERO.IO</a>
+        <Link to='/'><a className="badge border-0 text-xl">
+          <img src={logoImg} alt="" className="w-10" />
+          HERO.IO
+        </a></Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 text-[20px]">
-          <li>
-            <a>Home</a>
-          </li>
-          <li>
-            <a>Apps</a>
-          </li>
-          
-          <li>
-            <a>Installation</a>
-          </li>
-          
+          {links}
         </ul>
       </div>
       <div className="navbar-end">
-        <a target="_blank" href="https://github.com/mushfiq0000" className="btn text-white text-md bg-gradient-to-r from-[#632ee3] to-[#9f62f2] rounded-md border-0"><FaGithub /> Contribute</a>
+        <a
+          target="_blank"
+          href="https://github.com/mushfiq0000"
+          className="btn text-white text-md bg-gradient-to-r from-[#632ee3] to-[#9f62f2] rounded-md border-0"
+        >
+          <FaGithub /> Contribute
+        </a>
       </div>
     </div>
   );
