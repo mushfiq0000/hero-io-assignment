@@ -1,0 +1,508 @@
+[
+  {
+    "image": "https://i.ibb.co.com/YT1r4sR2/images.png",
+    "title": "ChatGPT",
+    "companyName": "OpenAI",
+    "id": 1,
+    "description": "ChatGPT is an advanced AI assistant developed by OpenAI that helps users with writing, learning, and creative thinking. It can generate text, explain concepts, and write code—all in natural language.",
+    "size": 230,
+    "reviews": 158000,
+    "ratingAvg": 4.8,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 3500 },
+      { "name": "3 star", "count": 7000 },
+      { "name": "4 star", "count": 19000 },
+      { "name": "5 star", "count": 126500 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/174/174872.png",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "id": 2,
+    "description": "Spotify offers millions of songs and podcasts. Discover new artists, create playlists, and stream music anytime with personalized recommendations.",
+    "size": 180,
+    "reviews": 220000,
+    "ratingAvg": 4.6,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 6500 },
+      { "name": "2 star", "count": 7800 },
+      { "name": "3 star", "count": 16000 },
+      { "name": "4 star", "count": 48000 },
+      { "name": "5 star", "count": 141700 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2111/2111463.png",
+    "title": "Instagram",
+    "companyName": "Meta Platforms",
+    "id": 3,
+    "description": "Instagram lets users share photos, videos, and stories with friends and followers worldwide. Explore creative content and build your digital presence with Reels and filters.",
+    "size": 310,
+    "reviews": 350000,
+    "ratingAvg": 4.4,
+    "downloads": 200000000,
+    "ratings": [
+      { "name": "1 star", "count": 22000 },
+      { "name": "2 star", "count": 26000 },
+      { "name": "3 star", "count": 40000 },
+      { "name": "4 star", "count": 95000 },
+      { "name": "5 star", "count": 167000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/733/733585.png",
+    "title": "WhatsApp Messenger",
+    "companyName": "Meta Platforms",
+    "id": 4,
+    "description": "WhatsApp is a fast, secure messaging app that supports text, voice, and video communication with end-to-end encryption, trusted by billions globally.",
+    "size": 120,
+    "reviews": 180000,
+    "ratingAvg": 4.7,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 4000 },
+      { "name": "2 star", "count": 6000 },
+      { "name": "3 star", "count": 12000 },
+      { "name": "4 star", "count": 42000 },
+      { "name": "5 star", "count": 116000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/1384/1384060.png",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 5,
+    "description": "YouTube is the world’s biggest video-sharing platform. Watch, upload, and share millions of videos — from entertainment and music to education and news.",
+    "size": 290,
+    "reviews": 500000,
+    "ratingAvg": 4.5,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 35000 },
+      { "name": "3 star", "count": 64000 },
+      { "name": "4 star", "count": 134000 },
+      { "name": "5 star", "count": 237000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/5968/5968830.png",
+    "title": "X (Twitter)",
+    "companyName": "X Corp.",
+    "id": 6,
+    "description": "X (formerly Twitter) is a global platform for sharing thoughts, news, and discussions in real time. Follow trending topics and join conversations that matter to you.",
+    "size": 200,
+    "reviews": 160000,
+    "ratingAvg": 4.2,
+    "downloads": 120000000,
+    "ratings": [
+      { "name": "1 star", "count": 19000 },
+      { "name": "2 star", "count": 21000 },
+      { "name": "3 star", "count": 29000 },
+      { "name": "4 star", "count": 48000 },
+      { "name": "5 star", "count": 43000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/3046/3046125.png",
+    "title": "TikTok",
+    "companyName": "ByteDance Ltd.",
+    "id": 7,
+    "description": "TikTok is a short-form video app that empowers creativity. Users can share fun, educational, or entertaining videos and connect with audiences around the world.",
+    "size": 350,
+    "reviews": 400000,
+    "ratingAvg": 4.3,
+    "downloads": 300000000,
+    "ratings": [
+      { "name": "1 star", "count": 42000 },
+      { "name": "2 star", "count": 38000 },
+      { "name": "3 star", "count": 50000 },
+      { "name": "4 star", "count": 98000 },
+      { "name": "5 star", "count": 172000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2991/2991148.png",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "id": 8,
+    "description": "Google Maps helps users navigate and explore the world. Get accurate directions, live traffic updates, and nearby business info, whether walking, driving, or cycling.",
+    "size": 150,
+    "reviews": 300000,
+    "ratingAvg": 4.7,
+    "downloads": 250000000,
+    "ratings": [
+      { "name": "1 star", "count": 9000 },
+      { "name": "2 star", "count": 11000 },
+      { "name": "3 star", "count": 19000 },
+      { "name": "4 star", "count": 61000 },
+      { "name": "5 star", "count": 200000 }
+    ]
+  },
+
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/732/732221.png",
+    "title": "Microsoft Word",
+    "companyName": "Microsoft Corporation",
+    "id": 9,
+    "description": "Microsoft Word is a powerful word processing tool that allows users to create, edit, and format professional documents easily with advanced layout and collaboration features.",
+    "size": 350,
+    "reviews": 450000,
+    "ratingAvg": 4.7,
+    "downloads": 600000000,
+    "ratings": [
+      { "name": "1 star", "count": 12000 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "3 star", "count": 30000 },
+      { "name": "4 star", "count": 100000 },
+      { "name": "5 star", "count": 293000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/732/732223.png",
+    "title": "Microsoft Excel",
+    "companyName": "Microsoft Corporation",
+    "id": 10,
+    "description": "Microsoft Excel is the go-to application for managing spreadsheets, performing data analysis, and visualizing complex data through charts and formulas.",
+    "size": 370,
+    "reviews": 420000,
+    "ratingAvg": 4.6,
+    "downloads": 580000000,
+    "ratings": [
+      { "name": "1 star", "count": 15000 },
+      { "name": "2 star", "count": 17000 },
+      { "name": "3 star", "count": 32000 },
+      { "name": "4 star", "count": 94000 },
+      { "name": "5 star", "count": 262000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/732/732222.png",
+    "title": "Microsoft PowerPoint",
+    "companyName": "Microsoft Corporation",
+    "id": 11,
+    "description": "PowerPoint enables users to design impactful presentations using slides, animations, and transitions — perfect for education, business, and professional use.",
+    "size": 330,
+    "reviews": 310000,
+    "ratingAvg": 4.7,
+    "downloads": 550000000,
+    "ratings": [
+      { "name": "1 star", "count": 11000 },
+      { "name": "2 star", "count": 14000 },
+      { "name": "3 star", "count": 27000 },
+      { "name": "4 star", "count": 81000 },
+      { "name": "5 star", "count": 177000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/732/732190.png",
+    "title": "Google Drive",
+    "companyName": "Google LLC",
+    "id": 12,
+    "description": "Google Drive offers secure cloud storage and seamless file synchronization. Access documents, photos, and videos from any device anywhere.",
+    "size": 210,
+    "reviews": 250000,
+    "ratingAvg": 4.8,
+    "downloads": 800000000,
+    "ratings": [
+      { "name": "1 star", "count": 8000 },
+      { "name": "2 star", "count": 10000 },
+      { "name": "3 star", "count": 18000 },
+      { "name": "4 star", "count": 54000 },
+      { "name": "5 star", "count": 168000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/732/732224.png",
+    "title": "Google Docs",
+    "companyName": "Google LLC",
+    "id": 13,
+    "description": "Google Docs allows teams to collaborate on text documents in real time. Write, edit, and share effortlessly with automatic cloud saving.",
+    "size": 240,
+    "reviews": 300000,
+    "ratingAvg": 4.7,
+    "downloads": 400000000,
+    "ratings": [
+      { "name": "1 star", "count": 9000 },
+      { "name": "2 star", "count": 12000 },
+      { "name": "3 star", "count": 20000 },
+      { "name": "4 star", "count": 72000 },
+      { "name": "5 star", "count": 187000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/5968/5968705.png",
+    "title": "LinkedIn",
+    "companyName": "LinkedIn Corporation",
+    "id": 14,
+    "description": "LinkedIn connects professionals worldwide to build careers, grow networks, and find new opportunities in every industry.",
+    "size": 200,
+    "reviews": 180000,
+    "ratingAvg": 4.4,
+    "downloads": 250000000,
+    "ratings": [
+      { "name": "1 star", "count": 12000 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "3 star", "count": 22000 },
+      { "name": "4 star", "count": 45000 },
+      { "name": "5 star", "count": 86000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/733/733609.png",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "id": 15,
+    "description": "Telegram is a privacy-focused messaging app offering speed, security, and powerful group features with cloud sync across all devices.",
+    "size": 160,
+    "reviews": 280000,
+    "ratingAvg": 4.5,
+    "downloads": 600000000,
+    "ratings": [
+      { "name": "1 star", "count": 9000 },
+      { "name": "2 star", "count": 12000 },
+      { "name": "3 star", "count": 24000 },
+      { "name": "4 star", "count": 62000 },
+      { "name": "5 star", "count": 173000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/5968/5968811.png",
+    "title": "Netflix",
+    "companyName": "Netflix Inc.",
+    "id": 16,
+    "description": "Netflix offers a wide variety of movies, TV series, and documentaries to stream on demand across devices with personalized recommendations.",
+    "size": 400,
+    "reviews": 550000,
+    "ratingAvg": 4.6,
+    "downloads": 900000000,
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 25000 },
+      { "name": "3 star", "count": 45000 },
+      { "name": "4 star", "count": 100000 },
+      { "name": "5 star", "count": 360000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2111/2111628.png",
+    "title": "Pinterest",
+    "companyName": "Pinterest Inc.",
+    "id": 17,
+    "description": "Pinterest inspires creativity by letting users explore ideas through pins and boards covering fashion, design, recipes, and more.",
+    "size": 170,
+    "reviews": 150000,
+    "ratingAvg": 4.5,
+    "downloads": 300000000,
+    "ratings": [
+      { "name": "1 star", "count": 7000 },
+      { "name": "2 star", "count": 10000 },
+      { "name": "3 star", "count": 19000 },
+      { "name": "4 star", "count": 48000 },
+      { "name": "5 star", "count": 66000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2111/2111302.png",
+    "title": "Reddit",
+    "companyName": "Reddit Inc.",
+    "id": 18,
+    "description": "Reddit is a community-based network where users share, discuss, and vote on content covering virtually any topic imaginable.",
+    "size": 240,
+    "reviews": 230000,
+    "ratingAvg": 4.3,
+    "downloads": 150000000,
+    "ratings": [
+      { "name": "1 star", "count": 10000 },
+      { "name": "2 star", "count": 13000 },
+      { "name": "3 star", "count": 26000 },
+      { "name": "4 star", "count": 49000 },
+      { "name": "5 star", "count": 132000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/732/732200.png",
+    "title": "Google Calendar",
+    "companyName": "Google LLC",
+    "id": 19,
+    "description": "Google Calendar helps organize schedules and manage events efficiently with reminders, sharing, and smart time management tools.",
+    "size": 150,
+    "reviews": 110000,
+    "ratingAvg": 4.6,
+    "downloads": 150000000,
+    "ratings": [
+      { "name": "1 star", "count": 4000 },
+      { "name": "2 star", "count": 6000 },
+      { "name": "3 star", "count": 11000 },
+      { "name": "4 star", "count": 28000 },
+      { "name": "5 star", "count": 61000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2111/2111421.png",
+    "title": "Facebook",
+    "companyName": "Meta Platforms",
+    "id": 20,
+    "description": "Facebook connects people, communities, and businesses around the globe, offering tools to share posts, photos, and experiences.",
+    "size": 320,
+    "reviews": 600000,
+    "ratingAvg": 4.4,
+    "downloads": 1500000000,
+    "ratings": [
+      { "name": "1 star", "count": 70000 },
+      { "name": "2 star", "count": 82000 },
+      { "name": "3 star", "count": 120000 },
+      { "name": "4 star", "count": 290000 },
+      { "name": "5 star", "count": 1030000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2111/2111728.png",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "id": 21,
+    "description": "Snapchat lets users share moments instantly through photos and videos that disappear, with fun filters and chat features.",
+    "size": 180,
+    "reviews": 270000,
+    "ratingAvg": 4.2,
+    "downloads": 400000000,
+    "ratings": [
+      { "name": "1 star", "count": 22000 },
+      { "name": "2 star", "count": 25000 },
+      { "name": "3 star", "count": 32000 },
+      { "name": "4 star", "count": 69000 },
+      { "name": "5 star", "count": 122000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/732/732208.png",
+    "title": "Gmail",
+    "companyName": "Google LLC",
+    "id": 22,
+    "description": "Gmail is a free email service from Google that offers organized, spam-free communication with powerful search and 15 GB of storage.",
+    "size": 160,
+    "reviews": 510000,
+    "ratingAvg": 4.8,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 8000 },
+      { "name": "2 star", "count": 11000 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 59000 },
+      { "name": "5 star", "count": 417000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/888/888879.png",
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications",
+    "id": 23,
+    "description": "Zoom is a reliable video conferencing app used globally for meetings, webinars, and virtual collaborations with HD video and audio.",
+    "size": 250,
+    "reviews": 320000,
+    "ratingAvg": 4.6,
+    "downloads": 600000000,
+    "ratings": [
+      { "name": "1 star", "count": 10000 },
+      { "name": "2 star", "count": 14000 },
+      { "name": "3 star", "count": 28000 },
+      { "name": "4 star", "count": 72000 },
+      { "name": "5 star", "count": 196000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/882/882704.png",
+    "title": "Slack",
+    "companyName": "Salesforce",
+    "id": 24,
+    "description": "Slack is a workplace communication platform that streamlines collaboration through channels, file sharing, and integrations.",
+    "size": 210,
+    "reviews": 180000,
+    "ratingAvg": 4.5,
+    "downloads": 180000000,
+    "ratings": [
+      { "name": "1 star", "count": 6000 },
+      { "name": "2 star", "count": 9000 },
+      { "name": "3 star", "count": 18000 },
+      { "name": "4 star", "count": 47000 },
+      { "name": "5 star", "count": 100000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/888/888853.png",
+    "title": "Discord",
+    "companyName": "Discord Inc.",
+    "id": 25,
+    "description": "Discord is a voice, video, and text communication platform built for communities, gamers, and friends to connect easily.",
+    "size": 260,
+    "reviews": 280000,
+    "ratingAvg": 4.7,
+    "downloads": 400000000,
+    "ratings": [
+      { "name": "1 star", "count": 11000 },
+      { "name": "2 star", "count": 13000 },
+      { "name": "3 star", "count": 21000 },
+      { "name": "4 star", "count": 58000 },
+      { "name": "5 star", "count": 177000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/5968/5968982.png",
+    "title": "Adobe Photoshop",
+    "companyName": "Adobe Inc.",
+    "id": 26,
+    "description": "Adobe Photoshop is the industry-leading software for photo editing, graphic design, and digital art creation.",
+    "size": 450,
+    "reviews": 410000,
+    "ratingAvg": 4.7,
+    "downloads": 250000000,
+    "ratings": [
+      { "name": "1 star", "count": 12000 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "3 star", "count": 28000 },
+      { "name": "4 star", "count": 75000 },
+      { "name": "5 star", "count": 280000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/174/174883.png",
+    "title": "Dribbble",
+    "companyName": "Dribbble Holdings",
+    "id": 27,
+    "description": "Dribbble is a community for designers to showcase creative work, discover design trends, and connect with clients and peers.",
+    "size": 190,
+    "reviews": 70000,
+    "ratingAvg": 4.6,
+    "downloads": 80000000,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 4000 },
+      { "name": "3 star", "count": 8000 },
+      { "name": "4 star", "count": 19000 },
+      { "name": "5 star", "count": 36000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/2111/2111646.png",
+    "title": "GitHub",
+    "companyName": "GitHub Inc.",
+    "id": 28,
+    "description": "GitHub is a development platform for hosting code repositories, enabling collaboration through version control and open-source projects.",
+    "size": 310,
+    "reviews": 150000,
+    "ratingAvg": 4.9,
+    "downloads": 120000000,
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 2000 },
+      { "name": "3 star", "count": 4000 },
+      { "name": "4 star", "count": 18000 },
+      { "name": "5 star", "count": 125000 }
+    ]
+  }
+]
+
