@@ -1,11 +1,9 @@
 import { createBrowserRouter } from "react-router";
-import App from "../App";
 import MainLayout from "../Layouts/MainLayout";
-import Home from "../pages/Home/Home";
-import Error from "../pages/Error/ErrorPage";
 import ErrorPage from "../pages/Error/ErrorPage";
-import AppsPage from "../pages/Apps/AppsPage";
+import Home from "../pages/Home/Home";
 import InstallationPage from "../pages/Installation/InstallationPage";
+import AppsPage from "../pages/Apps/AppsPage";
 
 export const router = createBrowserRouter([
   {
@@ -16,6 +14,8 @@ export const router = createBrowserRouter([
         {
             index: true,
             Component: Home,
+            // loader:() => fetch('/all_app.json'),
+            hydrateFallbackElement: <p>loading...</p>,
         },
         {
           path: "/apps",

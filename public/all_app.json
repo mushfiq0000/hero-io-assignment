@@ -6,9 +6,9 @@
     "id": 1,
     "description": "ChatGPT is an advanced AI assistant developed by OpenAI that helps users with writing, learning, and creative thinking. It can generate text, explain concepts, and write code—all in natural language.",
     "size": 230,
-    "reviews": 158000,
+    "reviews": "158K",
     "ratingAvg": 4.8,
-    "downloads": 50000000,
+    "downloads": "50M",
     "ratings": [
       { "name": "1 star", "count": 2000 },
       { "name": "2 star", "count": 3500 },
@@ -18,21 +18,21 @@
     ]
   },
   {
-    "image": "https://cdn-icons-png.flaticon.com/512/174/174872.png",
-    "title": "Spotify",
-    "companyName": "Spotify AB",
+    "image": "https://i.ibb.co.com/35pWhQmR/unnamed.png",
+    "title": "Neptune by Programming Hero",
+    "companyName": "Codinism Inc.",
     "id": 2,
-    "description": "Spotify offers millions of songs and podcasts. Discover new artists, create playlists, and stream music anytime with personalized recommendations.",
-    "size": 180,
-    "reviews": 220000,
-    "ratingAvg": 4.6,
-    "downloads": 100000000,
+    "description": "Neptune by Programming Hero is a companion app made for learners who have enrolled in the 'Complete Web Development with Jhankar Mahbub' course on Programming Hero. It enables users to log in, watch course videos, and save them for offline viewing. Access to content is restricted to those who have registered for the course. The app also provides important links like community group and course portal, and is continuously updated to fix bugs, improve UI/UX, and enhance user experience with smoother video download and offline play features. Some recent updates include helpdesk notifications, improved forgot-password flow, and resolving download video issues.",
+    "size": 138.7,
+    "reviews": "58k",
+    "ratingAvg": 4.8,
+    "downloads": "41K",
     "ratings": [
-      { "name": "1 star", "count": 6500 },
-      { "name": "2 star", "count": 7800 },
-      { "name": "3 star", "count": 16000 },
-      { "name": "4 star", "count": 48000 },
-      { "name": "5 star", "count": 141700 }
+      { "name": "1 star", "count": 102 },
+      { "name": "2 star", "count": 57 },
+      { "name": "3 star", "count": 213 },
+      { "name": "4 star", "count": 1204 },
+      { "name": "5 star", "count": 4247 }
     ]
   },
   {
@@ -42,9 +42,9 @@
     "id": 3,
     "description": "Instagram lets users share photos, videos, and stories with friends and followers worldwide. Explore creative content and build your digital presence with Reels and filters.",
     "size": 310,
-    "reviews": 350000,
+    "reviews": "350K",
     "ratingAvg": 4.4,
-    "downloads": 200000000,
+    "downloads": "200M",
     "ratings": [
       { "name": "1 star", "count": 22000 },
       { "name": "2 star", "count": 26000 },
@@ -60,9 +60,9 @@
     "id": 4,
     "description": "WhatsApp is a fast, secure messaging app that supports text, voice, and video communication with end-to-end encryption, trusted by billions globally.",
     "size": 120,
-    "reviews": 180000,
+    "reviews": "180K",
     "ratingAvg": 4.7,
-    "downloads": 100000000,
+    "downloads": "100M",
     "ratings": [
       { "name": "1 star", "count": 4000 },
       { "name": "2 star", "count": 6000 },
@@ -78,9 +78,9 @@
     "id": 5,
     "description": "YouTube is the world’s biggest video-sharing platform. Watch, upload, and share millions of videos — from entertainment and music to education and news.",
     "size": 290,
-    "reviews": 500000,
+    "reviews": "500K",
     "ratingAvg": 4.5,
-    "downloads": 500000000,
+    "downloads": "500M",
     "ratings": [
       { "name": "1 star", "count": 30000 },
       { "name": "2 star", "count": 35000 },
@@ -96,9 +96,9 @@
     "id": 6,
     "description": "X (formerly Twitter) is a global platform for sharing thoughts, news, and discussions in real time. Follow trending topics and join conversations that matter to you.",
     "size": 200,
-    "reviews": 160000,
+    "reviews": "160K",
     "ratingAvg": 4.2,
-    "downloads": 120000000,
+    "downloads": "120M",
     "ratings": [
       { "name": "1 star", "count": 19000 },
       { "name": "2 star", "count": 21000 },
@@ -114,9 +114,9 @@
     "id": 7,
     "description": "TikTok is a short-form video app that empowers creativity. Users can share fun, educational, or entertaining videos and connect with audiences around the world.",
     "size": 350,
-    "reviews": 400000,
+    "reviews": "400K",
     "ratingAvg": 4.3,
-    "downloads": 300000000,
+    "downloads": "300M",
     "ratings": [
       { "name": "1 star", "count": 42000 },
       { "name": "2 star", "count": 38000 },
@@ -126,15 +126,15 @@
     ]
   },
   {
-    "image": "https://cdn-icons-png.flaticon.com/512/2991/2991148.png",
+    "image": "https://i.ibb.co.com/MDw6VkRk/21b932bc180c8d5a412d49837adf76a0.jpg",
     "title": "Google Maps",
     "companyName": "Google LLC",
     "id": 8,
     "description": "Google Maps helps users navigate and explore the world. Get accurate directions, live traffic updates, and nearby business info, whether walking, driving, or cycling.",
     "size": 150,
-    "reviews": 300000,
+    "reviews": "300K",
     "ratingAvg": 4.7,
-    "downloads": 250000000,
+    "downloads": "250M",
     "ratings": [
       { "name": "1 star", "count": 9000 },
       { "name": "2 star", "count": 11000 },
@@ -143,17 +143,16 @@
       { "name": "5 star", "count": 200000 }
     ]
   },
-
   {
-    "image": "https://cdn-icons-png.flaticon.com/512/732/732221.png",
+    "image": "https://i.ibb.co.com/C3sz93C8/c3e4bb7464bb8d8f57243b4a1dfebfec.jpg",
     "title": "Microsoft Word",
     "companyName": "Microsoft Corporation",
     "id": 9,
     "description": "Microsoft Word is a powerful word processing tool that allows users to create, edit, and format professional documents easily with advanced layout and collaboration features.",
     "size": 350,
-    "reviews": 450000,
+    "reviews": "450K",
     "ratingAvg": 4.7,
-    "downloads": 600000000,
+    "downloads": "600M",
     "ratings": [
       { "name": "1 star", "count": 12000 },
       { "name": "2 star", "count": 15000 },
@@ -163,15 +162,15 @@
     ]
   },
   {
-    "image": "https://cdn-icons-png.flaticon.com/512/732/732223.png",
+    "image": "https://i.ibb.co.com/Kxvpksfn/13885f590c6070c7f106b0f19a17ab9b.jpg",
     "title": "Microsoft Excel",
     "companyName": "Microsoft Corporation",
     "id": 10,
     "description": "Microsoft Excel is the go-to application for managing spreadsheets, performing data analysis, and visualizing complex data through charts and formulas.",
     "size": 370,
-    "reviews": 420000,
+    "reviews": "420K",
     "ratingAvg": 4.6,
-    "downloads": 580000000,
+    "downloads": "580M",
     "ratings": [
       { "name": "1 star", "count": 15000 },
       { "name": "2 star", "count": 17000 },
@@ -181,15 +180,15 @@
     ]
   },
   {
-    "image": "https://cdn-icons-png.flaticon.com/512/732/732222.png",
+    "image": "https://i.ibb.co.com/KjcVqpdX/256cd9ab1bf4323d26460ab0384b64a2.jpg",
     "title": "Microsoft PowerPoint",
     "companyName": "Microsoft Corporation",
     "id": 11,
     "description": "PowerPoint enables users to design impactful presentations using slides, animations, and transitions — perfect for education, business, and professional use.",
     "size": 330,
-    "reviews": 310000,
+    "reviews": "310K",
     "ratingAvg": 4.7,
-    "downloads": 550000000,
+    "downloads": "550M",
     "ratings": [
       { "name": "1 star", "count": 11000 },
       { "name": "2 star", "count": 14000 },
@@ -199,69 +198,69 @@
     ]
   },
   {
-    "image": "https://cdn-icons-png.flaticon.com/512/732/732190.png",
+    "image": "https://i.ibb.co.com/VYpsmy44/84001534ea71965d4dff89d54c006681.jpg",
     "title": "Google Drive",
     "companyName": "Google LLC",
     "id": 12,
-    "description": "Google Drive offers secure cloud storage and seamless file synchronization. Access documents, photos, and videos from any device anywhere.",
+    "description": "Google Drive offers secure cloud storage and file sharing. Store, access, and collaborate on files from any device, anywhere.",
     "size": 210,
-    "reviews": 250000,
+    "reviews": "270K",
     "ratingAvg": 4.8,
-    "downloads": 800000000,
+    "downloads": "500M",
     "ratings": [
-      { "name": "1 star", "count": 8000 },
-      { "name": "2 star", "count": 10000 },
-      { "name": "3 star", "count": 18000 },
-      { "name": "4 star", "count": 54000 },
-      { "name": "5 star", "count": 168000 }
+      { "name": "1 star", "count": 7000 },
+      { "name": "2 star", "count": 9000 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 67000 },
+      { "name": "5 star", "count": 171000 }
     ]
   },
   {
-    "image": "https://cdn-icons-png.flaticon.com/512/732/732224.png",
-    "title": "Google Docs",
-    "companyName": "Google LLC",
+    "image": "https://i.ibb.co.com/QFLYch7s/5a9f3c02112a3f4560ccfd8e4f967bf5.jpg",
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
     "id": 13,
-    "description": "Google Docs allows teams to collaborate on text documents in real time. Write, edit, and share effortlessly with automatic cloud saving.",
-    "size": 240,
-    "reviews": 300000,
-    "ratingAvg": 4.7,
-    "downloads": 400000000,
+    "description": "Netflix is a streaming platform offering movies, series, and documentaries across genres and languages, personalized to your taste.",
+    "size": 450,
+    "reviews": "620K",
+    "ratingAvg": 4.6,
+    "downloads": "800M",
     "ratings": [
-      { "name": "1 star", "count": 9000 },
-      { "name": "2 star", "count": 12000 },
-      { "name": "3 star", "count": 20000 },
-      { "name": "4 star", "count": 72000 },
-      { "name": "5 star", "count": 187000 }
+      { "name": "1 star", "count": 23000 },
+      { "name": "2 star", "count": 27000 },
+      { "name": "3 star", "count": 50000 },
+      { "name": "4 star", "count": 125000 },
+      { "name": "5 star", "count": 395000 }
     ]
   },
   {
-    "image": "https://cdn-icons-png.flaticon.com/512/5968/5968705.png",
-    "title": "LinkedIn",
-    "companyName": "LinkedIn Corporation",
+    "image": "https://i.ibb.co.com/n8LjTR7w/ab964bcf79cbc2d86b15a9e2efe05ffa.jpg",
+    "title": "Facebook",
+    "companyName": "Meta Platforms",
     "id": 14,
-    "description": "LinkedIn connects professionals worldwide to build careers, grow networks, and find new opportunities in every industry.",
-    "size": 200,
-    "reviews": 180000,
-    "ratingAvg": 4.4,
-    "downloads": 250000000,
+    "description": "Facebook connects people around the world, allowing you to share moments, join communities, and stay updated with friends and news.",
+    "size": 300,
+    "reviews": "480K",
+    "ratingAvg": 4.3,
+    "downloads": "1B",
     "ratings": [
-      { "name": "1 star", "count": 12000 },
-      { "name": "2 star", "count": 15000 },
-      { "name": "3 star", "count": 22000 },
-      { "name": "4 star", "count": 45000 },
-      { "name": "5 star", "count": 86000 }
+      { "name": "1 star", "count": 54000 },
+      { "name": "2 star", "count": 61000 },
+      { "name": "3 star", "count": 97000 },
+      { "name": "4 star", "count": 180000 },
+      { "name": "5 star", "count": 148000 }
     ]
   },
   {
-    "image": "https://cdn-icons-png.flaticon.com/512/733/733609.png",
+    "image": "https://i.ibb.co.com/3Yp02NbN/596d74fed827cf406cbd2a4f0d8f00b2.jpg",
     "title": "Telegram",
     "companyName": "Telegram FZ-LLC",
     "id": 15,
     "description": "Telegram is a privacy-focused messaging app offering speed, security, and powerful group features with cloud sync across all devices.",
     "size": 160,
-    "reviews": 280000,
+    "reviews": "280K",
     "ratingAvg": 4.5,
-    "downloads": 600000000,
+    "downloads": "600M",
     "ratings": [
       { "name": "1 star", "count": 9000 },
       { "name": "2 star", "count": 12000 },
@@ -271,33 +270,33 @@
     ]
   },
   {
-    "image": "https://cdn-icons-png.flaticon.com/512/5968/5968811.png",
-    "title": "Netflix",
-    "companyName": "Netflix Inc.",
+    "image": "https://i.ibb.co.com/KjDQ6tZK/8e270a27e139387f6f21bf6aab9743f5-icon.png",
+    "title": "FitTrack Pro",
+    "companyName": "HealthWave Inc.",
     "id": 16,
-    "description": "Netflix offers a wide variety of movies, TV series, and documentaries to stream on demand across devices with personalized recommendations.",
-    "size": 400,
-    "reviews": 550000,
+    "description": "FitTrack Pro is your ultimate fitness companion designed to help you stay consistent and achieve your health goals. With detailed workout tracking, calorie and nutrition monitoring, and AI-powered recommendations, it adapts to your personal progress.",
+    "size": 48.2,
+    "reviews": "12.4K",
     "ratingAvg": 4.6,
-    "downloads": 900000000,
+    "downloads": "850K",
     "ratings": [
-      { "name": "1 star", "count": 20000 },
-      { "name": "2 star", "count": 25000 },
-      { "name": "3 star", "count": 45000 },
-      { "name": "4 star", "count": 100000 },
-      { "name": "5 star", "count": 360000 }
+      { "name": "1 star", "count": 321 },
+      { "name": "2 star", "count": 210 },
+      { "name": "3 star", "count": 752 },
+      { "name": "4 star", "count": 3458 },
+      { "name": "5 star", "count": 7930 }
     ]
   },
   {
-    "image": "https://cdn-icons-png.flaticon.com/512/2111/2111628.png",
+    "image": "https://i.ibb.co.com/xtXLxXp5/d9278e07110623ced9d12899e6e87921.jpg",
     "title": "Pinterest",
     "companyName": "Pinterest Inc.",
     "id": 17,
     "description": "Pinterest inspires creativity by letting users explore ideas through pins and boards covering fashion, design, recipes, and more.",
     "size": 170,
-    "reviews": 150000,
+    "reviews": "150K",
     "ratingAvg": 4.5,
-    "downloads": 300000000,
+    "downloads": "300M",
     "ratings": [
       { "name": "1 star", "count": 7000 },
       { "name": "2 star", "count": 10000 },
@@ -307,15 +306,15 @@
     ]
   },
   {
-    "image": "https://cdn-icons-png.flaticon.com/512/2111/2111302.png",
+    "image": "https://i.ibb.co.com/MDJLBNM4/05c2271c0e114965490bee7962608507.jpg",
     "title": "Reddit",
     "companyName": "Reddit Inc.",
     "id": 18,
     "description": "Reddit is a community-based network where users share, discuss, and vote on content covering virtually any topic imaginable.",
     "size": 240,
-    "reviews": 230000,
+    "reviews": "230K",
     "ratingAvg": 4.3,
-    "downloads": 150000000,
+    "downloads": "150M",
     "ratings": [
       { "name": "1 star", "count": 10000 },
       { "name": "2 star", "count": 13000 },
@@ -325,15 +324,15 @@
     ]
   },
   {
-    "image": "https://cdn-icons-png.flaticon.com/512/732/732200.png",
+    "image": "https://i.ibb.co.com/xqQv9vvw/ec111648a825b05a5f7d6846d3f473c2.jpg",
     "title": "Google Calendar",
     "companyName": "Google LLC",
     "id": 19,
     "description": "Google Calendar helps organize schedules and manage events efficiently with reminders, sharing, and smart time management tools.",
     "size": 150,
-    "reviews": 110000,
+    "reviews": "110K",
     "ratingAvg": 4.6,
-    "downloads": 150000000,
+    "downloads": "150M",
     "ratings": [
       { "name": "1 star", "count": 4000 },
       { "name": "2 star", "count": 6000 },
@@ -343,33 +342,34 @@
     ]
   },
   {
-    "image": "https://cdn-icons-png.flaticon.com/512/2111/2111421.png",
-    "title": "Facebook",
-    "companyName": "Meta Platforms",
+    "image": "https://cdn-icons-png.flaticon.com/512/174/174872.png",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
     "id": 20,
-    "description": "Facebook connects people, communities, and businesses around the globe, offering tools to share posts, photos, and experiences.",
-    "size": 320,
-    "reviews": 600000,
-    "ratingAvg": 4.4,
-    "downloads": 1500000000,
+    "description": "Spotify offers millions of songs and podcasts. Discover new artists, create playlists, and stream music anytime with personalized recommendations.",
+    "size": 180,
+    "reviews": "220K",
+    "ratingAvg": 4.6,
+    "downloads": "100M",
     "ratings": [
-      { "name": "1 star", "count": 70000 },
-      { "name": "2 star", "count": 82000 },
-      { "name": "3 star", "count": 120000 },
-      { "name": "4 star", "count": 290000 },
-      { "name": "5 star", "count": 1030000 }
+      { "name": "1 star", "count": 6500 },
+      { "name": "2 star", "count": 7800 },
+      { "name": "3 star", "count": 16000 },
+      { "name": "4 star", "count": 48000 },
+      { "name": "5 star", "count": 141700 }
     ]
   },
+
   {
-    "image": "https://cdn-icons-png.flaticon.com/512/2111/2111728.png",
+    "image": "https://i.ibb.co.com/YTTTX9b3/4e95267bcf1cc4ce078755e85e388add.jpg",
     "title": "Snapchat",
     "companyName": "Snap Inc.",
     "id": 21,
     "description": "Snapchat lets users share moments instantly through photos and videos that disappear, with fun filters and chat features.",
     "size": 180,
-    "reviews": 270000,
+    "reviews": "270K",
     "ratingAvg": 4.2,
-    "downloads": 400000000,
+    "downloads": "400M",
     "ratings": [
       { "name": "1 star", "count": 22000 },
       { "name": "2 star", "count": 25000 },
@@ -379,15 +379,15 @@
     ]
   },
   {
-    "image": "https://cdn-icons-png.flaticon.com/512/732/732208.png",
+    "image": "https://i.ibb.co.com/5gwy47tN/32dafe1b642d7616ae6f3c615199ba70.jpg",
     "title": "Gmail",
     "companyName": "Google LLC",
     "id": 22,
     "description": "Gmail is a free email service from Google that offers organized, spam-free communication with powerful search and 15 GB of storage.",
     "size": 160,
-    "reviews": 510000,
+    "reviews": "510K",
     "ratingAvg": 4.8,
-    "downloads": 500000000,
+    "downloads": "500M",
     "ratings": [
       { "name": "1 star", "count": 8000 },
       { "name": "2 star", "count": 11000 },
@@ -397,15 +397,15 @@
     ]
   },
   {
-    "image": "https://cdn-icons-png.flaticon.com/512/888/888879.png",
+    "image": "https://i.ibb.co.com/M5c91MYs/50900cf38abf21bb0024af861f184963.jpg",
     "title": "Zoom",
     "companyName": "Zoom Video Communications",
     "id": 23,
     "description": "Zoom is a reliable video conferencing app used globally for meetings, webinars, and virtual collaborations with HD video and audio.",
     "size": 250,
-    "reviews": 320000,
+    "reviews": "320K",
     "ratingAvg": 4.6,
-    "downloads": 600000000,
+    "downloads": "600M",
     "ratings": [
       { "name": "1 star", "count": 10000 },
       { "name": "2 star", "count": 14000 },
@@ -415,15 +415,15 @@
     ]
   },
   {
-    "image": "https://cdn-icons-png.flaticon.com/512/882/882704.png",
+    "image": "https://i.ibb.co.com/ccbxGWvG/b74504d48060a4c64af55b552b441897.jpg",
     "title": "Slack",
     "companyName": "Salesforce",
     "id": 24,
     "description": "Slack is a workplace communication platform that streamlines collaboration through channels, file sharing, and integrations.",
     "size": 210,
-    "reviews": 180000,
+    "reviews": "180K",
     "ratingAvg": 4.5,
-    "downloads": 180000000,
+    "downloads": "180M",
     "ratings": [
       { "name": "1 star", "count": 6000 },
       { "name": "2 star", "count": 9000 },
@@ -433,15 +433,15 @@
     ]
   },
   {
-    "image": "https://cdn-icons-png.flaticon.com/512/888/888853.png",
+    "image": "https://i.ibb.co.com/60jtMX0z/443299705b5e7d07327e36e949a2fba3.jpg",
     "title": "Discord",
     "companyName": "Discord Inc.",
     "id": 25,
     "description": "Discord is a voice, video, and text communication platform built for communities, gamers, and friends to connect easily.",
     "size": 260,
-    "reviews": 280000,
+    "reviews": "280K",
     "ratingAvg": 4.7,
-    "downloads": 400000000,
+    "downloads": "400M",
     "ratings": [
       { "name": "1 star", "count": 11000 },
       { "name": "2 star", "count": 13000 },
@@ -451,15 +451,15 @@
     ]
   },
   {
-    "image": "https://cdn-icons-png.flaticon.com/512/5968/5968982.png",
+    "image": "https://i.ibb.co.com/yc56YkxT/2efd6852a6650e63b3056b00b1dde12e.jpg",
     "title": "Adobe Photoshop",
     "companyName": "Adobe Inc.",
     "id": 26,
     "description": "Adobe Photoshop is the industry-leading software for photo editing, graphic design, and digital art creation.",
     "size": 450,
-    "reviews": 410000,
+    "reviews": "410K",
     "ratingAvg": 4.7,
-    "downloads": 250000000,
+    "downloads": "250M",
     "ratings": [
       { "name": "1 star", "count": 12000 },
       { "name": "2 star", "count": 15000 },
@@ -469,15 +469,15 @@
     ]
   },
   {
-    "image": "https://cdn-icons-png.flaticon.com/512/174/174883.png",
+    "image": "https://i.ibb.co.com/cnBxsFb/124037.pngg",
     "title": "Dribbble",
     "companyName": "Dribbble Holdings",
     "id": 27,
     "description": "Dribbble is a community for designers to showcase creative work, discover design trends, and connect with clients and peers.",
     "size": 190,
-    "reviews": 70000,
+    "reviews": "70K",
     "ratingAvg": 4.6,
-    "downloads": 80000000,
+    "downloads": "80M",
     "ratings": [
       { "name": "1 star", "count": 3000 },
       { "name": "2 star", "count": 4000 },
@@ -487,15 +487,15 @@
     ]
   },
   {
-    "image": "https://cdn-icons-png.flaticon.com/512/2111/2111646.png",
+    "image": "https://cdn-icons-png.flaticon.com/512/733/733609.png",
     "title": "GitHub",
     "companyName": "GitHub Inc.",
     "id": 28,
     "description": "GitHub is a development platform for hosting code repositories, enabling collaboration through version control and open-source projects.",
     "size": 310,
-    "reviews": 150000,
+    "reviews": "150K",
     "ratingAvg": 4.9,
-    "downloads": 120000000,
+    "downloads": "120M",
     "ratings": [
       { "name": "1 star", "count": 1000 },
       { "name": "2 star", "count": 2000 },
@@ -505,4 +505,3 @@
     ]
   }
 ]
-
