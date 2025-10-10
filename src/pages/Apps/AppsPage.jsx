@@ -2,9 +2,11 @@ import { useState } from "react";
 import useAppData from "../../Hooks/useAppData";
 
 import AppsCard from "../Home/AppsCard";
+import { Link } from "react-router";
+import Skeleton from "../../components/LoadingSpinner/Skeleton";
 
 const AppsPage = () => {
-  const { appData } = useAppData();
+  const { appData, loading } = useAppData();
   const [search, setSearch] = useState("");
   const term = search.trim().toLowerCase();
   const searchApp = term
@@ -13,7 +15,7 @@ const AppsPage = () => {
 
   return (
     <div>
-      <div className="py-8">
+      <div className="md:py-20 py-8">
         <h1 className="text-center text-4xl font-bold p-2">Our All Applications</h1>
         <p className="text-center text-lg text-gray-500">Explore All Apps on the Market developed by us. We code for Millions</p>
       </div>
@@ -22,7 +24,7 @@ const AppsPage = () => {
         <h1 className=" text-2xl font-semibold p-2">
           ({searchApp.length}) Apps Found
         </h1>
-        <label className="input">
+        <label className="input border-purple-500">
           <svg
             className="h-[1em] opacity-50"
             xmlns="http://www.w3.org/2000/svg"
@@ -47,11 +49,19 @@ const AppsPage = () => {
           />
         </label>
       </div>
-      <div className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 p-8 md:px-20 gap-5">
+      {
+        loading ? <Skeleton count={28}/> : <div>
+        {
+        searchApp.length === 0 ? 
+          <h1 className="text-center text-4xl font-bold text-gray-500 py-20"> No App Found</h1>
+        : <div className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 p-8 md:px-20 gap-5">
         {searchApp.map((appData) => (
           <AppsCard key={appData.id} appData={appData} />
         ))}
       </div>
+      }
+      </div>
+      }
     </div>
   );
 };

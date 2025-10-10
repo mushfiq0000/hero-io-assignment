@@ -1,15 +1,14 @@
 import { Link } from "react-router";
 import Banner from "../../components/Banner/Banner";
 import AppsCard from "./AppsCard";
-import useAppData from '../../Hooks/useAppData'
-
+import useAppData from "../../Hooks/useAppData";
+import Skeleton from "../../components/LoadingSpinner/Skeleton";
 
 const Home = () => {
   // const appCardsData = useLoaderData();
-  const { appData , loading, error } = useAppData();
-  
+  const { appData, loading} = useAppData();
+
   const featureAppCard = appData.slice(0, 8);
-  
 
   return (
     <div>
@@ -26,9 +25,17 @@ const Home = () => {
             <AppsCard key={appData.id} appData={appData} />
           ))}
         </div>
-        <div className="flex justify-center py-6 ">
-          <Link to='/apps'><button className="btn bg-gradient-to-r from-[#632ee3] to-[#9f62f2] text-white px-8">Show All App</button></Link>
-        </div>
+        {loading ? (
+          <Skeleton />
+        ) : (
+          <div className="flex justify-center py-6 ">
+            <Link to="/apps">
+              <button className="btn bg-gradient-to-r from-[#632ee3] to-[#9f62f2] text-white px-8">
+                Show All App
+              </button>
+            </Link>
+          </div>
+        )}
       </div>
     </div>
   );

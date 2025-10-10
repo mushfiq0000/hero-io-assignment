@@ -1,14 +1,23 @@
 import { useEffect, useState } from "react";
 import { useLocation } from "react-router";
+
+import {
+  Bar,
+  BarChart,
+  Legend,
+  ResponsiveContainer,
+  Tooltip,
+  XAxis,
+  YAxis,
+} from "recharts";
 import downloadImg from "../../assets/icon-downloads.png";
 import ratingImg from "../../assets/icon-ratings.png";
 import riviewImg from "../../assets/icon-review.png";
-import { Bar, BarChart, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
+import { toast } from "react-toastify";
 
 const AppDetails = () => {
-  const location = useLocation()
-  const app = location.state
-  
+  const location = useLocation();
+  const app = location.state;
 
   const [isInstall, setIsInstall] = useState(false);
   const {
@@ -21,8 +30,7 @@ const AppDetails = () => {
     companyName,
     reviews,
     id,
-    ratings
-    
+    ratings,
   } = app;
 
   useEffect(() => {
@@ -33,19 +41,24 @@ const AppDetails = () => {
     }
   }, [id]);
 
-
-  
-
   const handelAppData = () => {
     const existingList = JSON.parse(localStorage.getItem("Install")) || [];
     const alreadyInstall = existingList.some((a) => a.id === id);
     if (alreadyInstall) return;
 
-    
-
     const newList = [...existingList, app];
     localStorage.setItem("Install", JSON.stringify(newList));
-    setIsInstall(true)
+    setIsInstall(true);
+    toast.success(`${title} Installed successfull !`, {
+      position: "top-center",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: false,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+    });
   };
 
   return (
@@ -62,7 +75,7 @@ const AppDetails = () => {
             <div className="md:text-center">
               <img className="md:ml-6" src={downloadImg} alt="" />
               <p>Download</p>
-              <h1 className="text-4xl font-bold">{downloads}</h1>
+              <h1 className="text-4xl font-bold">{downloads}M</h1>
             </div>
             <div className="md:text-center">
               <img className="md:ml-4" src={ratingImg} alt="" />
@@ -78,7 +91,9 @@ const AppDetails = () => {
           <button
             disabled={isInstall}
             onClick={handelAppData}
-            className={`px-6 py-2 rounded-lg text-white ${isInstall ? "bg-green-700" : "bg-[#00d390]"}`}
+            className={`px-6 py-2 rounded-lg text-white ${
+              isInstall ? "bg-green-700" : "bg-[#00d390]"
+            }`}
           >
             {isInstall === true ? "Installed" : `Install Now (${size} MB)`}
           </button>

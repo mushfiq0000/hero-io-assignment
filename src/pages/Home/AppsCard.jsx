@@ -22,7 +22,7 @@ const AppsCard = ({ appData }) => {
         </h2>
         
         <div className="flex justify-between py-2">
-          <div className="btn border-0 bg-gray-100 badge-outline text-green-600"><img className="w-4" src={downloadImg} alt="" />{downloads}</div>
+          <div className="btn border-0 bg-gray-100 badge-outline text-green-600"><img className="w-4" src={downloadImg} alt="" />{downloads}M</div>
           <div className="btn border-0 bg-orange-100 badge-outline justify-end text-orange-600 "><img className="w-4" src={ratingImg} alt="" />{ratingAvg}</div>
         </div>
       </div>

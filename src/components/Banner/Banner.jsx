@@ -9,8 +9,8 @@ const Banner = () => {
       <div className="text-center">
         <h1 className="font-bold text-6xl pt-5">We Build <br /><span className="bg-gradient-to-r from-[#632ee3] to-[#9f62f2] bg-clip-text text-transparent">Productive</span> Apps</h1>
         <p className="p-2 text-gray-500">At HERO.IO, we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.<br /> Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
-        <div className="flex justify-center gap-3 py-3">
-            <a target="_blank" href="https://play.google.com/store/games?hl=en" className="btn shadow-md flex items-center text-lg"><img className="w-10 p-2" src={goodleStorImg} alt="" />Google Play</a>
+        <div className="md:flex justify-center gap-3 p-4">
+            <a target="_blank" href="https://play.google.com/store/games?hl=en" className="mb-3 btn shadow-md flex items-center text-lg"><img className="w-10 p-2" src={goodleStorImg} alt="" />Google Play</a>
             <a target="_blank" href="https://www.apple.com/app-store/developing-for-the-app-store/" className="btn shadow-md flex items-center text-lg"><img className="w-10 p-2" src={appStorImg} alt="" />App Store</a>
         </div>
         

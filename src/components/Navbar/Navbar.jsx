@@ -1,14 +1,60 @@
-import React from "react";
-import logoImg from "../../assets/logo.png";
+import { FaAppStore } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
-import { Link } from "react-router";
+import { IoHomeOutline } from "react-icons/io5";
+import { MdInstallDesktop } from "react-icons/md";
+import { Link, NavLink } from "react-router";
+import logoImg from "../../assets/logo.png";
 
 const Navbar = () => {
   const links = (
     <>
-      <Link to='/'> <li className="m-3 hover:underline">Home</li> </Link>
-      <Link to='apps'> <li className="m-3 hover:underline">Apps</li> </Link>
-      <Link to='/installation'> <li className="m-3 hover:underline">Installation</li> </Link>
+      <NavLink
+        className={({ isActive }) =>
+          `mr-2 p-2 transition-all  duration-10 ${
+            isActive
+              ? "text-black border-b-2 border-[#9f62f2]"
+              : "hover:bg-white text-black"
+          }`
+        }
+        to="/"
+      >
+        {" "}
+        <div className="flex items-center gap-1">
+          {" "}
+          <IoHomeOutline />
+          Home{" "}
+        </div>{" "}
+      </NavLink>
+      <NavLink
+        className={({ isActive }) =>
+          `mr-2 p-2  transition-all  duration-10 ${
+            isActive
+              ? "text-black border-b-2 border-[#9f62f2]"
+              : "hover:bg-white text-black"
+          }`
+        }
+        to="apps"
+      >
+        {" "}
+        <div className="flex items-center gap-1">
+          <FaAppStore /> Apps{" "}
+        </div>{" "}
+      </NavLink>
+      <NavLink
+        className={({ isActive }) =>
+          `mr-2 p-2  transition-all  duration-10 ${
+            isActive
+              ? "text-black border-b-2 border-[#9f62f2]"
+              : "hover:bg-white text-black"
+          }`
+        }
+        to="/installation"
+      >
+        {" "}
+        <div className="flex items-center gap-1">
+          <MdInstallDesktop /> Installation{" "}
+        </div>{" "}
+      </NavLink>
     </>
   );
 
@@ -35,20 +81,22 @@ const Navbar = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow "
           >
             {links}
           </ul>
         </div>
-        <Link to='/'><p className="badge border-0 text-xl font-bold">
-          <img src={logoImg} alt="" className="w-10" />
-          <span className="bg-gradient-to-r from-[#632ee3] to-[#9f62f2] bg-clip-text text-transparent">HERO.IO</span>        
-        </p></Link>
+        <Link to="/">
+          <p className="badge border-0 text-xl font-bold">
+            <img src={logoImg} alt="" className="w-10" />
+            <span className="bg-gradient-to-r from-[#632ee3] to-[#9f62f2] bg-clip-text text-transparent">
+              HERO.IO
+            </span>
+          </p>
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1 text-[20px]">
-          {links}
-        </ul>
+        <ul className="menu menu-horizontal px-1 text-[20px]">{links}</ul>
       </div>
       <div className="navbar-end">
         <a
