@@ -1,8 +1,9 @@
 import { Link } from "react-router";
-import Banner from "../../components/Banner/Banner";
-import AppsCard from "./AppsCard";
 import useAppData from "../../Hooks/useAppData";
-import Skeleton from "../../components/LoadingSpinner/Skeleton";
+import Banner from "../../components/Banner/Banner";
+import Skeleton from "../../components/Loading/Skeleton";
+import AppsCard from "./AppsCard";
+import Loading from "../../components/Loading/Loading";
 
 const Home = () => {
   // const appCardsData = useLoaderData();
