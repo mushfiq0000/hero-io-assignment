@@ -14,7 +14,7 @@ const useAppData = () => {
       .finally(() => setLoading(false));
   }, []);
 
-  return { appData , loading, error };
+  return { appData, loading, error };
 };
 
 export default useAppData;

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import useAppData from "../../Hooks/useAppData";
 
 import AppsCard from "../Home/AppsCard";
@@ -8,14 +8,16 @@ const AppsPage = () => {
   const [search, setSearch] = useState("");
   const term = search.trim().toLowerCase();
   const searchApp = term
-    ? appData.filter((data) =>
-        data.title.toLowerCase().includes(term)
-      )
-    : appData ;
-    
+    ? appData.filter((data) => data.title.toLowerCase().includes(term))
+    : appData;
 
   return (
     <div>
+      <div className="py-8">
+        <h1 className="text-center text-4xl font-bold p-2">Our All Applications</h1>
+        <p className="text-center text-lg text-gray-500">Explore All Apps on the Market developed by us. We code for Millions</p>
+      </div>
+
       <div className="md:flex justify-between items-center px-8 pt-8 md:px-20">
         <h1 className=" text-2xl font-semibold p-2">
           ({searchApp.length}) Apps Found

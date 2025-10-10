@@ -1,77 +1,116 @@
-import React, { useEffect, useState } from "react";
-import { useParams } from "react-router";
-import useAppData from "../../Hooks/useAppData";
-import dowonloadImg from "../../assets/icon-downloads.png";
+import { useEffect, useState } from "react";
+import { useLocation } from "react-router";
+import downloadImg from "../../assets/icon-downloads.png";
 import ratingImg from "../../assets/icon-ratings.png";
+import riviewImg from "../../assets/icon-review.png";
+import { Bar, BarChart, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 
 const AppDetails = () => {
-  const { id } = useParams();
-  const { appData, loading, error } = useAppData();
-  const app = appData.find((a) => a.id === Number(id));
+  const location = useLocation()
+  const app = location.state
   
-  
-  
-  
-  
-  
+
   const [isInstall, setIsInstall] = useState(false);
+  const {
+    title,
+    image,
+    ratingAvg,
+    downloads,
+    description,
+    size,
+    companyName,
+    reviews,
+    id,
+    ratings
+    
+  } = app;
 
-useEffect(() => {
-    const installAppList = JSON.parse(localStorage.getItem("Install")) || [];
-    const isDuplicate = installAppList.some((i) => i.id === Number(id));
-    setIsInstall(isDuplicate);
-  }, [id]);
-
-  const handelAppData = () => {
-    const installAppList = JSON.parse(localStorage.getItem("Install")) || [];
-    const isDuplicate = installAppList.some((a) => a.id === Number(id));
-
-    if (!isDuplicate) {
-      const updatedList = [...installAppList, appData];
-      
-      localStorage.setItem("Install", JSON.stringify(updatedList));
-      
+  useEffect(() => {
+    const existingList = JSON.parse(localStorage.getItem("Install")) || [];
+    const alreadyInstall = existingList.some((a) => a.id === id);
+    if (alreadyInstall) {
       setIsInstall(true);
     }
-  }
+  }, [id]);
 
-  if (loading) return <p>Loading...</p>;
-  if (error) return <p>404 error</p>;
 
-  const { title, image, ratingAvg, downloads, description, size} = app;
+  
+
+  const handelAppData = () => {
+    const existingList = JSON.parse(localStorage.getItem("Install")) || [];
+    const alreadyInstall = existingList.some((a) => a.id === id);
+    if (alreadyInstall) return;
+
+    
+
+    const newList = [...existingList, app];
+    localStorage.setItem("Install", JSON.stringify(newList));
+    setIsInstall(true)
+  };
 
   return (
-   
-      <div className="py-4">
-        <div className="card shadow-sm bg-gray-100">
-          <figure className="w-full h-80 p-13 justify-centr  overflow-hidden">
-            <img src={image} alt="Shoes" />
-          </figure>
-          <div className="card-body ">
-            <h2 className="text-2xl text-center font-semibold">{title}</h2>
+    <div className="p-10 md:p-16">
+      <div className="md:flex gap-25">
+        <img src={image} className="w-100 rounded-2xl mb-5" />
+        <div className="md:w-250 pb-5">
+          <h1 className="text-4xl font-bold">{title}</h1>
+          <p className="text-xl">{companyName}</p>
 
-            <div className="flex justify-between py-2">
-              <div className="btn border-0 bg-gray-100 badge-outline text-green-600">
-                <img className="w-4" src={dowonloadImg} alt="" />
-                {downloads}
-              </div>
-              <div className="btn border-0 bg-orange-100 badge-outline justify-end text-orange-600 ">
-                <img className="w-4" src={ratingImg} alt="" />
-                {ratingAvg}
-              </div>
+          <div className="divider md:mb-25"></div>
+
+          <div className="flex flex-wrap gap-10 item-center pb-8">
+            <div className="md:text-center">
+              <img className="md:ml-6" src={downloadImg} alt="" />
+              <p>Download</p>
+              <h1 className="text-4xl font-bold">{downloads}</h1>
             </div>
-            <button disabled={isInstall} onClick={handelAppData} className="btn">
-              {isInstall === true ? "Installed" : `Install Now (${size})`}
-              </button>
+            <div className="md:text-center">
+              <img className="md:ml-4" src={ratingImg} alt="" />
+              <p>RatingAvg</p>
+              <h1 className="text-4xl font-bold">{ratingAvg}</h1>
+            </div>
+            <div className="md:text-center">
+              <img className="md:ml-6" src={riviewImg} alt="" />
+              <p>Reviews</p>
+              <h1 className="text-4xl font-bold">{reviews}</h1>
+            </div>
           </div>
-
-          <div className="p-5">
-            <h1 className="font-bold">Description</h1>
-            <p className="text-gray-400 py-3">{description} </p>
-          </div>
+          <button
+            disabled={isInstall}
+            onClick={handelAppData}
+            className={`px-6 py-2 rounded-lg text-white ${isInstall ? "bg-green-700" : "bg-[#00d390]"}`}
+          >
+            {isInstall === true ? "Installed" : `Install Now (${size} MB)`}
+          </button>
         </div>
       </div>
-    
+
+      <div className="divider"></div>
+
+      <div>
+        <div className="w-full h-100 pb-5">
+          <h2 className="text-xl font-semibold mb-2">Ratings</h2>
+          <ResponsiveContainer width="100%" height="100%">
+            <BarChart
+              data={[...ratings].reverse()}
+              layout="vertical"
+              margin={{ top: 5, right: 100, left: 30, bottom: 5 }}
+            >
+              <XAxis type="number" />
+              <YAxis dataKey="name" type="category" />
+              <Tooltip />
+              <Legend />
+              <Bar dataKey="count" fill="#ff8811" barSize={30} name={title} />
+            </BarChart>
+          </ResponsiveContainer>
+        </div>
+      </div>
+      <div className="divider"></div>
+      <div className="py-5">
+        <h1 className="text-xl font-bold">Description</h1>
+        <p className="pt-2">{description}</p>
+      </div>
+    </div>
   );
 };
 
