@@ -1,7 +1,7 @@
 # 🚀 Hero IO – App Store Platform
 
-**Live Demo:** [https://hero-io-d4056d.netlify.app/](https://hero-io-d4056d.netlify.app/)  
-**GitHub Repo:** [https://github.com/mushfiq0000/hero-io-assignment](https://github.com/mushfiq0000/hero-io-assignment)
+**Live Demo:** [Link](https://hero-io-d4056d.netlify.app/)  
+**GitHub Repo:** [Link](https://github.com/mushfiq0000/hero-io-assignment)
 
 ---
 
